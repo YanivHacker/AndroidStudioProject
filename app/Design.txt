@@ -1,0 +1,45 @@
+### DESIGN ###
+
+1. Login page & Signup page: Login page - just username and password insertions.
+   - Password will be hidden
+   - "Forgot password" option - maybe add email to send notification for password reset, or with phone number;
+   - Sign in with Google option
+
+2. For every new user sign up, we put "welcome" procedure (built from fragments) to guide him in the app:
+   - Option to transfer him to Settings page
+   - Option to create his first post
+   - Option to update his personal info
+
+3. Main activity:
+   - Scroll between posts of your connections - build feed from all connections' posts (including yourself) sorted by creation date.
+   - Search bar to search other users
+
+4. DM's activity:
+   - Scroll between conversation with other users
+   - Search bar to search user in order to start conversation.
+   - Make design like chat (Whatsapp, instagram DM's...) --maybe take from Mati.
+
+5. User profile activity:
+   - Menu sidebar? maybe with activity that already exists in the Android Studio activity pool (Settings, profile editing)
+   - Show username + profile picture + connections list + all posts the user has created
+   - Press post -> Go to post details.
+
+6. Post activity:
+   - Show pictures/videos of post (if exist, make sure it isn't ugly if no media in post)
+   - Show title and content
+   - Show all comments of post. Press on comment author -> Go to his user profile.
+   - Options to edit and delete post - only the post creator can do it.
+
+7. Create new post activity:
+   - Allow addition of pictures and videos - open camera/open gallery.
+   - Allow addition of location with google maps to the post.
+   - Allow addition of content.
+   ** Don't allow post with no media and no content.
+   - Within creation of post, add to user's posts and make sure it updates on the feed of all his connections.
+
+8. Settings activity:
+   - Notifications management
+   - Edit personal info
+   - Change password
+   - Change theme
+   - 
