@@ -2,7 +2,6 @@ package com.example.gymstegramproject;
 import androidx.annotation.NonNull;
 //import androidx.room.PrimaryKey;
 
-import java.util.ArrayList;
 
 @Entity
 public class User {
